@@ -1,0 +1,126 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.BlogItem>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models.PublishedContent;
+
+@{
+	Layout = "Master.cshtml";
+}
+
+		<!-- Blogpost meta data -->
+		<div class="container-fluid grey-bg">
+			<div class="container">
+				<div class="row section">
+					<div class="col-md-6">
+						<div class="meta-author media p-3">
+							<img src="images/SofieToft.jpg" alt="Sofie Toft" class="mr-3 mt-2" style="width:60px;">
+							<div class="media-body">
+								<p><span class="font-weight-bold">Written by</span> <br />
+									Dreamer<br />
+									<span class="font-italic">Documenter and Video host</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="meta-meta text-right">
+							<p><br /> 
+								<span class="font-weight-bold">Published on</span> January 9th 2020 <br />
+								<span class="font-weight-bold">Category:</span> <a href="#">Product Update</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+
+		<!-- Blogpost content -->
+        <div class="container">
+
+			<div class="row section">
+				<div class="col-md-12">
+					<p class="intro">Quantum physics suggests that Usain Bolt weighs more on the track than on the scale. According to the theory of relativity and Einstein’s famous equation e=mc^2, mass and energy are the same thing and interchangeable. If you put in more energy on an object moving at the speed of light, it wouldn’t go faster but that extra energy is needed to handle the increasing mass of the object.</p>
+					<br />
+					<h3>A Sun Made of Bananas Would Be Just as Hot</h3>
+					<p>In Singapore, we enjoy warm weather throughout the year. But what makes the sun hot? The sun is hot not because there’s a massive fire on it. Rather it is hot because of its immense weight. Thus its’ gravitational pull is enormous, putting it under tremendous pressure and causing nuclear fusion. So, if the sun were made of bananas of such a colossal weight, it would still be just as hot.</p>
+						<br /><br />
+						<span class="font-weight-bold">The Theory of Virtual Particles</span><br />
+						Imagine an empty space. Quantum physics says it’s not empty. Rather, it’s full of energy and brimming with matter and antimatter. In it, random particles pop in and out of existence due to that energy. The particles are made of matter and antimatter, and they appear, touch and explode and disappear all in a billionth of a second. It’s a theory of quantum physics yet to be adequately explained, and you’ll probably find many explanations online.
+						<br /><br />
+						<span class="font-weight-bold">Something can be both wave and particle</span><br />
+						J. J. Thomson won the Nobel Prize in 1906 for his discovery that electrons are particles. Yet his son George won the Nobel Prize in 1937 for showing that electrons are waves. Who was right? The answer is both of them. This so-called wave-particle duality is a cornerstone of quantum physics. It applies to light as well as electrons. Sometimes it pays to think about light as an electromagnetic wave, but at other times it’s more useful to picture it in the form of particles called photons.</p>
+					<br />
+					<h3>Objects can be in two places at once</h3>
+					<p>Wave-particle duality is an example of superposition. That is, a quantum object existing in multiple states at once. An electron, for example, is both ‘here’ and ‘there’ simultaneously. It’s only once we do an experiment to find out where it is that it settles down into one or the other.</p>
+					<img class="img-fluid" src="images/cloud-new.png" /><br />
+					<br />
+					<h3> It may lead us towards a multiverse</h3>
+					<p>The idea that observation collapses the wave function and forces a quantum ‘choice’ is known as the Copenhagen interpretation of quantum physics. However, it’s not the only option on the table. Advocates of the ‘many worlds’ interpretation argue that there is no choice involved at all. Instead, at the moment the measurement is made, reality fractures into two copies of itself: one in which we experience outcome A, and another where we see outcome B unfold. It gets around the thorny issue of needing an observer to make stuff happen — does a dog count as an observer, or a robot? <br />
+
+						It helps us characterize stars <br />
+						
+						Danish physicist Niels Bohr showed us that the orbits of electrons inside atoms are also quantized. They come in predetermined sizes called energy levels. When an electron drops from a higher energy level to a lower energy level, it spits out a photon with an energy equal to the size of the gap. Equally, an electron can absorb a particle of light and use its energy to leap up to a higher energy level.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Related story -->
+		<div class="container-fluid orange-bg">
+			<div class="container">
+				<div class="row section">
+					<div class="col-md-12 blog-related">
+						<h4>Related story:</h4>
+						<a href="#">
+							<h5>Without it the sun wouldn’t shine</h5>
+							<p>The sun makes its energy through a process called nuclear fusion. It involves two protons — the positively charged particles in an atom — sticking together. However, their identical charges make them repel each other, just like two north poles of a magnet. Physicists call this the Coulomb barrier, and it’s like a wall between the two protons. <br />
+								<span class="font-italic">Written by Dreamer</span></p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Footer -->
+		<div class="container-fluid footer">
+			<div class="container">
+
+				<div class="row section">
+					<div class="col-md-4">
+						<ul class="footer-links">
+							<h5>Science Resources</h5>
+							<li><a href="#">Documentation</a></li>
+							<li><a href="#">Media</a></li>
+							<li><a href="#">Social Media Channels</a></li>
+							<li><a href="#">Training Courses</a></li>
+							<li><a href="#">Webinars</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul class="footer-links">
+							<h5>Meet Us</h5>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Meet the people</a></li>
+							<li><a href="#">Teams</a></li>
+							<li><a href="#">Our Team</a></li>
+							<li><a href="#">Forum</a></li>
+							<li><a href="#">Community Teams</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 text-center">
+						<ul class="footer-links">
+							<h5>Follow Us</h5>
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Instagram</a></li>
+						</ul>
+					</div>
+					<div class="text-center">
+						<img src="images/dilemma.jpg" class="img-fluid" alt="What am I?">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	

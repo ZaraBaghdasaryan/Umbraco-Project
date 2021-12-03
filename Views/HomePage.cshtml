@@ -1,0 +1,100 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.HomePage>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+	Layout = "Master.cshtml";
+}
+		
+		<div class="container">
+
+			<div class="row section">
+				<div class="col-md-12">
+
+					@Model.Value("bodyText")
+
+				</div>				
+			</div>
+
+		</div>
+
+		<!-- Grey Banner -->
+		<div class="container-fluid grey-bg">
+			<div class="container">
+				<div class="row section">
+					<div class="col-md-8">
+						<h2>Quantum Physics causes black holes to evaporate</h2>
+						<p>A quantum rule called the Heisenberg uncertainty principle says that it’s impossible to perfectly know two properties of a system simultaneously. The more accurately you know one, the less precisely you know the other. This applies to momentum and position, and separately to energy and time.</p>
+						<p>It’s a bit like taking out a loan. You can borrow a lot of money for a short amount of time, or a little cash for longer. This leads us to virtual particles. If enough energy is ‘borrowed’ from nature then a pair of particles can fleetingly pop into existence, before rapidly disappearing so as not to default on the loan. </p>
+					</div>
+					<div class="col-md-4">
+						<img src="/images/community.jpg" class="img-fluid" alt="Community illustration">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Blog section -->
+		<div class="container">
+
+			<div class="row section">
+				<div class="col-md-12">
+					<h1>Latest from the blog</h1>
+				</div>
+
+				<!-- Blog Post query goes here. -->
+				<div class="col-md-4">
+					<div class="box-blog">
+						<a href="Blogpost.html"><div class="blog-promoImage" style="background-image:url('/images/u_product_roadmap_white-1.jpg')"></div></a>
+						<h5>Quantum Physics stops dead stars collapsing</h5>
+						<p class="blog-meta">January 20th 2020 - by Dreamer</p>
+						<p>Eventually fusion in the sun will stop and our star will die. 
+						Gravity will win and the sun will collapse, but not indefinitely. 
+						The smaller it gets, the more material is crammed together. 
+						 
+						 </p>
+					</div>
+					<a href="#" class="btn btn-inverted">Read more >></a>
+				</div>
+				<div class="col-md-4">
+					<div class="box-blog">
+						<a href="#"><div class="blog-promoImage" style="background-image:url('/images/quantum.jpg')"></div></a>
+						<h5>The quantum world is lumpy</h5>
+						<p class="blog-meta">January 20th 2020 - by Dreamer</p>
+						<p>The quantum world has a lot in common with shoes. You can’t just go to a shop and pick out sneakers that are an exact match for your feet. Instead, you’re forced to choose between pairs that come in predetermined sizes.</p>
+					</div>
+					<a href="#" class="btn btn-inverted">Read more >></a>
+				</div>
+				<div class="col-md-4">
+					<div class="box-blog">
+						<a href="#"><div class="blog-promoImage" style="background-image:url('/images/cosmos.jpg')"></div></a>
+						<h5>Quantum Physics explains the universe’s large-scale structure</h5>
+						<p class="blog-meta">January 20th 2020 - by Dreamer</p>
+						<p>Our best theory of the universe’s origin is the Big Bang. 
+						Yet it was modified in the 1980s to include another theory called inflation.
+						</p>
+					</div>
+					<a href="#" class="btn btn-inverted blog-box-btn">Read more >></a>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Call to Action -->
+		<div class="container-fluid orange-bg">
+			<div class="container">
+
+				<div class="row section">
+					<div class="col-md-12 text-center">
+						<h1>And it is more than a little ‘spooky’</h1>
+						<p>As well as helping to prove that light is quantum, Einstein argued in favor of another effect that he dubbed ‘spooky action at distance’. 
+						Today we know that this ‘quantum entanglement’ is real, but we still don’t fully understand what’s going on. 
+						 <br/><br/></p>
+						<a href="#" class="btn btn-inverted-orange" role="button">3 ways to start your Quantum Physics Journey >></a>
+					</div>
+				</div>
+	
+			</div>
+		</div>
+
+
+</html>
